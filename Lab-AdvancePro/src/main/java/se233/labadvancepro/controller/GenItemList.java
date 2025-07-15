@@ -15,6 +15,9 @@ public class GenItemList {
         itemLists.add(new Weapon("Staff",30,DamageType.magical,"assets/staff.png"));
         itemLists.add(new Armor("Shirt",0,50,"assets/shirt.png"));
         itemLists.add(new Armor("Armor",50,0,"assets/armor.png"));
+        //ใส่ไอเทมเพิ่ม
+        itemLists.add(new Weapon("Excalibur", 999,DamageType.physical,"assets/Excalibur.png"));
+        itemLists.add(new Armor("Crown",999,999,"assets/crown.png"));
         return itemLists;
     }
 }

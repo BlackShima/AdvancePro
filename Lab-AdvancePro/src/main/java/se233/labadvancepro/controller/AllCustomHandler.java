@@ -19,8 +19,9 @@ public class AllCustomHandler {
     public static class GenCharacterHandler implements EventHandler<ActionEvent> {
         @Override
         public void handle(ActionEvent event) {
-            Launcher.setMainCharacter(GenCharacter.setUpCharacter());
-            Launcher.refreshPane();
+            Launcher.createNewCharacterAndResetEquipment();
+           /* Launcher.setMainCharacter(GenCharacter.setUpCharacter());
+            Launcher.refreshPane();*/
         }
     }
     public static void onDragDetected(MouseEvent event, BasedEquipment equipment, ImageView imgView) {
@@ -29,14 +30,44 @@ public class AllCustomHandler {
         ClipboardContent content = new ClipboardContent();
         content.put(equipment.DATA_FORMAT, equipment);
         db.setContent(content);
+        //แก้ให้ลากของแล้วไม่หาย
+        imgView.setOnDragDone(dragEvent -> {
+           if (dragEvent.getTransferMode() == null){
+               imgView.setVisible(true);
+           } else if (dragEvent.getTransferMode() == TransferMode.MOVE){
+               onEquipDone(dragEvent);
+           }
+        });
         event.consume();
     }
     public static void onDragOver(DragEvent event, String type) {
         Dragboard dragboard = event.getDragboard();
         BasedEquipment retrievedEquipment = (BasedEquipment)dragboard.getContent(BasedEquipment.DATA_FORMAT);
-        if (dragboard.hasContent(BasedEquipment.DATA_FORMAT) && retrievedEquipment.
-                getClass().getSimpleName().equals(type))
-            event.acceptTransferModes(TransferMode.MOVE);
+        BasedCharacter mainCharacter = Launcher.getMainCharacter();
+        if (retrievedEquipment instanceof Weapon) {
+            if (type.equals("Weapon")) { // ตรวจสอบว่าเป็นช่องอาวุธ
+                // สำหรับ Battlemage: สามารถใส่อาวุธได้ทุกประเภท
+                if (mainCharacter.getClass().getSimpleName().equals("BattleMageCharacter")) {
+                    event.acceptTransferModes(TransferMode.MOVE);
+                }
+                // สำหรับตัวละคร Physical/Magical: ต้องตรงตาม DamageType
+                else if (mainCharacter.getDamageType() == ((Weapon) retrievedEquipment).getDamageType()) {
+                    event.acceptTransferModes(TransferMode.MOVE);
+                }
+            }
+        } else if (retrievedEquipment instanceof Armor) {
+            if (type.equals("Armor")) { // ตรวจสอบว่าเป็นช่องเกราะ
+                // สำหรับ Battlemage: ห้ามติดตั้งชุดเกราะ
+                if (mainCharacter.getClass().getSimpleName().equals("BattleMageCharacter")) {
+                    // ไม่ต้องทำอะไร (ไม่ accept)
+                }
+                // สำหรับตัวละครอื่นๆ: สามารถติดตั้งชุดเกราะได้
+                else {
+                    event.acceptTransferModes(TransferMode.MOVE);
+                }
+            }
+        }
+        event.consume();
     }
     public static void onDragDropped(DragEvent event, Label lbl, StackPane imgGroup) {
         boolean dragCompleted = false;

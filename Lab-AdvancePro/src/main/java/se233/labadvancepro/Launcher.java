@@ -102,11 +102,26 @@ public class Launcher extends Application {
         mainPane.setBottom(inventoryPane);
         return mainPane;
     }
+    public static void createNewCharacterAndResetEquipment(){
+
+        if(equippedWeapon != null){
+            allEquipments.add(equippedWeapon);
+        }
+        if(equippedArmor != null){
+            allEquipments.add(equippedArmor);
+        }
+        mainCharacter = GenCharacter.setUpCharacter();
+        equippedWeapon = null;
+        equippedArmor = null;
+
+        refreshPane();
+    }
     public static void refreshPane() {
         characterPane.drawPane(mainCharacter);
         equipPane.drawPane(equippedWeapon,equippedArmor);
         inventoryPane.drawPane(allEquipments);
     }
+
     public static BasedCharacter getMainCharacter() { return mainCharacter; }
     public static void setMainCharacter(BasedCharacter mainCharacter) {
         Launcher.mainCharacter = mainCharacter;

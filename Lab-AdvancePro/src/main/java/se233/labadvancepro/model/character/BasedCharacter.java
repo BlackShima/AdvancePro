@@ -4,9 +4,20 @@ import se233.labadvancepro.model.DamageType;
 import se233.labadvancepro.model.item.Armor;
 import se233.labadvancepro.model.item.Weapon;
 
-public class BasedCharacter {
+public abstract class BasedCharacter {
+    public BasedCharacter(String name, String imgpath){
+        this.name = name;
+        this.imgpath = imgpath;
+        this.hp = 0;
+        this.power = 0;
+        this.defense = 0;
+        this.resistance = 0;
+
+        this.weapon = null;
+        this.armor = null;
+    }
     protected String name, imgpath;
-    protected DamageType type;
+    protected DamageType damageType;
     protected Integer fullHp, basedPow, basedDef, basedRes;
     protected Integer hp, power, defense, resistance;
     protected Weapon weapon;
@@ -29,7 +40,7 @@ public class BasedCharacter {
     }
     @Override
     public String toString() { return name; }
-    public DamageType getType() {
-        return type;
+    public DamageType getDamageType() {
+        return damageType;
     }
 }
