@@ -52,7 +52,7 @@ public class GameCharacter extends Pane {
         this.setTranslateX(x);
         this.setTranslateY(y);
         this.gameCharacterImg = new Image(Launcher.class.getResourceAsStream(spriteSheetPath));
-        this.imageView = new AnimatedSprite(gameCharacterImg, 10, 5, 2, 0, 0, 410, 389);
+        this.imageView = new AnimatedSprite(gameCharacterImg, 10, 5, 2, 0, 0, 541, 514);
         this.imageView.setFitWidth(48.0);
         this.imageView.setFitHeight(40.0);
         this.leftKey = leftKey;
@@ -83,6 +83,7 @@ public class GameCharacter extends Pane {
     }
     public void checkReachGameWall() {
         if(x <= 0) {
+
             x = 0;
             // เพิ่มข้อความล็อกเมื่อชนขอบซ้าย
             logger.debug("Character at x = 0. Collided with the left game boundary.");

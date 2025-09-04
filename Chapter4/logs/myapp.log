@@ -1,0 +1,700 @@
+2025-09-04 09:34:13.658 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:34:13.684 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:31 y:272 vx:1 vy:0
+2025-09-04 09:34:13.705 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:33 y:272 vx:2 vy:0
+2025-09-04 09:34:13.727 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:36 y:272 vx:3 vy:0
+2025-09-04 09:34:13.750 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:40 y:272 vx:4 vy:0
+2025-09-04 09:34:13.770 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:45 y:272 vx:5 vy:0
+2025-09-04 09:34:14.083 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:51 y:272 vx:6 vy:0
+2025-09-04 09:34:14.134 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:44 y:272 vx:7 vy:0
+2025-09-04 09:34:14.155 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:37 y:272 vx:7 vy:0
+2025-09-04 09:34:14.176 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:7 vy:0
+2025-09-04 09:34:14.198 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:23 y:272 vx:7 vy:0
+2025-09-04 09:34:14.221 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:16 y:272 vx:7 vy:0
+2025-09-04 09:34:14.242 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:9 y:272 vx:7 vy:0
+2025-09-04 09:34:14.263 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:2 y:272 vx:7 vy:0
+2025-09-04 09:34:14.275 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.275 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.284 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:0 y:272 vx:7 vy:0
+2025-09-04 09:34:14.284 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.294 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.294 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.305 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:0 y:272 vx:7 vy:0
+2025-09-04 09:34:14.305 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.311 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.312 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.327 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:0 y:272 vx:7 vy:0
+2025-09-04 09:34:14.327 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.329 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.329 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.347 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.347 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.349 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.364 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.365 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.370 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.381 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.381 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.390 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.398 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.398 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.411 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.417 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.417 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.433 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.434 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.434 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.451 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.451 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.455 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.470 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.470 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.477 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.488 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.488 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.498 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.505 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.505 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.519 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.523 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.523 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.541 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.541 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.541 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.559 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.559 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.562 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.577 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.577 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.583 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.595 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.595 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.604 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.612 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.613 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.626 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.629 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.629 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.646 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.646 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.647 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.663 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.663 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.669 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.680 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.681 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.690 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.699 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.699 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.711 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.716 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.716 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.732 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.734 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.734 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.752 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.752 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.753 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.769 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.769 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.774 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.786 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.786 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.795 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.804 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.804 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.817 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.823 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.823 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.838 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.841 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.841 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.858 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.858 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.859 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.877 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.877 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.880 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.894 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.894 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.902 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.911 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.911 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.924 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.929 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.929 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.945 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.945 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.946 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.964 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.965 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.966 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.983 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.983 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:14.987 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.001 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.001 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.009 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.018 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.018 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.030 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.035 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.035 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.051 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.052 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.052 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.069 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.069 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.072 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.087 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.087 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.093 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.104 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.104 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.114 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.122 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.122 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.136 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.139 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.139 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.157 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.157 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.158 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.175 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.175 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.179 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.192 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.192 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.199 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.209 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.209 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.221 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.228 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.228 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.242 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.244 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.244 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.261 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.261 [Thread-4] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.263 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:0 y:272 vx:7 vy:0
+2025-09-04 09:34:15.263 [Thread-3] DEBUG se233.chapter4.model.GameCharacter.checkReachGameWall(89) - Character at x = 0. Collided with the left game boundary.
+2025-09-04 09:34:15.284 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:7 y:272 vx:7 vy:0
+2025-09-04 09:34:15.306 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:14 y:272 vx:7 vy:0
+2025-09-04 09:34:15.328 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:21 y:272 vx:7 vy:0
+2025-09-04 09:34:15.351 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:28 y:272 vx:7 vy:0
+2025-09-04 09:34:15.372 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:35 y:272 vx:7 vy:0
+2025-09-04 09:34:15.394 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:42 y:272 vx:7 vy:0
+2025-09-04 09:34:15.416 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:49 y:272 vx:7 vy:0
+2025-09-04 09:34:15.437 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:56 y:272 vx:7 vy:0
+2025-09-04 09:34:15.458 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:63 y:272 vx:7 vy:0
+2025-09-04 09:34:15.480 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:70 y:272 vx:7 vy:0
+2025-09-04 09:34:15.502 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:77 y:272 vx:7 vy:0
+2025-09-04 09:34:15.523 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:84 y:272 vx:7 vy:0
+2025-09-04 09:34:20.580 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:20.602 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:20.625 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:20.646 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:20.668 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:20.688 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:20.709 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:20.730 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:20.752 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:20.775 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:20.796 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:20.817 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:20.839 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:21.110 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:21.131 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:21.152 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:21.172 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:21.193 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:21.215 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:21.237 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:21.257 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:21.280 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:21.300 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:21.322 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:21.343 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:21.963 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:21.984 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:22.005 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:22.026 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:22.048 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:22.070 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:22.091 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:22.114 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:22.136 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:22.158 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:22.180 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:22.202 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:22.223 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:22.325 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:22.347 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:22.368 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:22.390 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:22.412 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:22.433 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:22.456 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:22.504 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:22.525 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:22.546 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:22.566 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:22.588 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:23.069 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:23.091 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:23.112 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:23.132 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:23.155 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:23.177 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:23.199 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:23.220 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:23.240 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:23.263 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:23.284 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:23.347 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:23.368 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:23.389 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:23.411 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:23.432 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:23.454 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:23.476 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:24.140 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:24.161 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:24.181 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:24.202 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:24.223 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:24.245 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:24.266 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:24.287 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:24.308 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:24.329 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:24.349 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:26.513 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:26.536 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:26.557 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:26.589 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:26.612 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:26.634 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:26.655 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:26.676 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:26.697 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:26.720 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:26.742 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:26.763 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:26.784 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:26.805 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:26.825 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:26.846 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:26.867 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:26.888 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:26.909 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:26.930 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:26.952 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:26.973 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:26.995 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:27.016 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:27.036 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:27.118 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:27.140 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:27.160 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:27.181 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:27.202 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:27.223 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:27.244 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:27.266 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:27.287 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:27.307 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:27.328 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:27.349 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:27.370 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:27.391 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:27.451 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:27.472 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:27.493 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:27.514 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:27.535 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:27.557 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:27.579 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:28.165 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:91 y:272 vx:7 vy:0
+2025-09-04 09:34:28.185 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:98 y:272 vx:7 vy:0
+2025-09-04 09:34:28.206 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:105 y:272 vx:7 vy:0
+2025-09-04 09:34:28.227 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:112 y:272 vx:7 vy:0
+2025-09-04 09:34:28.248 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:119 y:272 vx:7 vy:0
+2025-09-04 09:34:28.269 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:126 y:272 vx:7 vy:0
+2025-09-04 09:34:28.291 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:133 y:272 vx:7 vy:0
+2025-09-04 09:34:28.312 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:140 y:272 vx:7 vy:0
+2025-09-04 09:34:28.335 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:147 y:272 vx:7 vy:0
+2025-09-04 09:34:28.355 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:154 y:272 vx:7 vy:0
+2025-09-04 09:34:28.519 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:161 y:272 vx:7 vy:0
+2025-09-04 09:34:28.540 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:168 y:272 vx:7 vy:0
+2025-09-04 09:34:28.560 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:175 y:272 vx:7 vy:0
+2025-09-04 09:34:28.581 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:182 y:272 vx:7 vy:0
+2025-09-04 09:34:28.602 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:189 y:272 vx:7 vy:0
+2025-09-04 09:34:28.623 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:196 y:272 vx:7 vy:0
+2025-09-04 09:34:28.645 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:203 y:272 vx:7 vy:0
+2025-09-04 09:34:28.666 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:210 y:272 vx:7 vy:0
+2025-09-04 09:34:28.688 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:217 y:272 vx:7 vy:0
+2025-09-04 09:34:28.709 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:224 y:272 vx:7 vy:0
+2025-09-04 09:34:28.730 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:231 y:256 vx:7 vy:16
+2025-09-04 09:34:28.753 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:224 y:241 vx:7 vy:15
+2025-09-04 09:34:28.773 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:217 y:227 vx:7 vy:14
+2025-09-04 09:34:28.795 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:210 y:214 vx:7 vy:13
+2025-09-04 09:34:28.815 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:203 y:202 vx:7 vy:12
+2025-09-04 09:34:28.837 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:196 y:191 vx:7 vy:11
+2025-09-04 09:34:28.859 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:189 y:181 vx:7 vy:10
+2025-09-04 09:34:28.902 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:182 y:164 vx:7 vy:8
+2025-09-04 09:34:28.923 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:189 y:157 vx:7 vy:7
+2025-09-04 09:34:28.946 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:196 y:151 vx:7 vy:6
+2025-09-04 09:34:28.968 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:203 y:146 vx:7 vy:5
+2025-09-04 09:34:28.990 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:210 y:142 vx:7 vy:4
+2025-09-04 09:34:29.011 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:217 y:139 vx:7 vy:3
+2025-09-04 09:34:29.032 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:224 y:137 vx:7 vy:2
+2025-09-04 09:34:29.053 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:231 y:136 vx:7 vy:1
+2025-09-04 09:34:29.074 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:238 y:136 vx:7 vy:0
+2025-09-04 09:34:29.095 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:245 y:137 vx:7 vy:1
+2025-09-04 09:34:29.117 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:252 y:139 vx:7 vy:2
+2025-09-04 09:34:29.137 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:259 y:142 vx:7 vy:3
+2025-09-04 09:34:29.160 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:266 y:146 vx:7 vy:4
+2025-09-04 09:34:29.182 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:273 y:151 vx:7 vy:5
+2025-09-04 09:34:29.202 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:280 y:157 vx:7 vy:6
+2025-09-04 09:34:29.223 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:287 y:164 vx:7 vy:7
+2025-09-04 09:34:29.244 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:294 y:172 vx:7 vy:8
+2025-09-04 09:34:29.265 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:301 y:181 vx:7 vy:9
+2025-09-04 09:34:29.449 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:308 y:272 vx:7 vy:0
+2025-09-04 09:34:29.469 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:301 y:272 vx:7 vy:0
+2025-09-04 09:34:29.491 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:294 y:272 vx:7 vy:0
+2025-09-04 09:34:29.511 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:287 y:272 vx:7 vy:0
+2025-09-04 09:34:29.534 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:280 y:272 vx:7 vy:0
+2025-09-04 09:34:29.555 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:273 y:272 vx:7 vy:0
+2025-09-04 09:34:29.576 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:266 y:272 vx:7 vy:0
+2025-09-04 09:34:29.597 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:259 y:272 vx:7 vy:0
+2025-09-04 09:34:29.619 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:252 y:272 vx:7 vy:0
+2025-09-04 09:34:29.640 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:245 y:272 vx:7 vy:0
+2025-09-04 09:34:29.661 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:238 y:272 vx:7 vy:0
+2025-09-04 09:34:29.682 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:231 y:272 vx:7 vy:0
+2025-09-04 09:34:29.724 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:224 y:272 vx:7 vy:0
+2025-09-04 09:34:29.745 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:231 y:272 vx:7 vy:0
+2025-09-04 09:34:29.766 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:238 y:272 vx:7 vy:0
+2025-09-04 09:34:29.787 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:245 y:272 vx:7 vy:0
+2025-09-04 09:34:29.809 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:252 y:272 vx:7 vy:0
+2025-09-04 09:34:29.829 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:259 y:272 vx:7 vy:0
+2025-09-04 09:34:29.851 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:266 y:272 vx:7 vy:0
+2025-09-04 09:34:29.872 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:273 y:272 vx:7 vy:0
+2025-09-04 09:34:29.893 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:280 y:272 vx:7 vy:0
+2025-09-04 09:34:29.914 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:287 y:272 vx:7 vy:0
+2025-09-04 09:34:29.936 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:294 y:272 vx:7 vy:0
+2025-09-04 09:34:29.957 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:301 y:272 vx:7 vy:0
+2025-09-04 09:34:29.979 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:308 y:272 vx:7 vy:0
+2025-09-04 09:34:30.000 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:315 y:256 vx:7 vy:16
+2025-09-04 09:34:30.021 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:322 y:241 vx:7 vy:15
+2025-09-04 09:34:30.042 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:329 y:227 vx:7 vy:14
+2025-09-04 09:34:30.062 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:336 y:214 vx:7 vy:13
+2025-09-04 09:34:37.803 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:343 y:272 vx:7 vy:0
+2025-09-04 09:34:37.824 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:336 y:272 vx:7 vy:0
+2025-09-04 09:34:37.846 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:329 y:272 vx:7 vy:0
+2025-09-04 09:34:37.846 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:322 y:272 vx:7 vy:0
+2025-09-04 09:34:37.867 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:322 y:272 vx:7 vy:0
+2025-09-04 09:34:37.868 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:315 y:272 vx:7 vy:0
+2025-09-04 09:34:37.889 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:315 y:272 vx:7 vy:0
+2025-09-04 09:34:37.889 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:308 y:256 vx:7 vy:16
+2025-09-04 09:34:37.911 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:308 y:241 vx:7 vy:15
+2025-09-04 09:34:37.953 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:308 y:214 vx:7 vy:13
+2025-09-04 09:34:37.974 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:308 y:202 vx:7 vy:12
+2025-09-04 09:34:37.995 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:308 y:191 vx:7 vy:11
+2025-09-04 09:34:38.018 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:308 y:181 vx:7 vy:10
+2025-09-04 09:34:38.041 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:308 y:172 vx:7 vy:9
+2025-09-04 09:34:38.064 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:308 y:164 vx:7 vy:8
+2025-09-04 09:34:38.084 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:308 y:157 vx:7 vy:7
+2025-09-04 09:34:38.126 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:308 y:151 vx:7 vy:6
+2025-09-04 09:34:38.148 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:301 y:146 vx:7 vy:5
+2025-09-04 09:34:38.169 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:294 y:142 vx:7 vy:4
+2025-09-04 09:34:38.538 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:287 y:241 vx:7 vy:14
+2025-09-04 09:34:38.559 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:294 y:256 vx:7 vy:15
+2025-09-04 09:34:38.579 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:301 y:272 vx:7 vy:0
+2025-09-04 09:34:38.600 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:308 y:272 vx:7 vy:0
+2025-09-04 09:34:38.621 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:315 y:272 vx:7 vy:0
+2025-09-04 09:34:38.642 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:322 y:272 vx:7 vy:0
+2025-09-04 09:34:38.663 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:329 y:272 vx:7 vy:0
+2025-09-04 09:34:38.686 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:336 y:272 vx:7 vy:0
+2025-09-04 09:34:38.708 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:343 y:272 vx:7 vy:0
+2025-09-04 09:34:38.975 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:350 y:272 vx:7 vy:0
+2025-09-04 09:34:38.996 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:350 y:272 vx:7 vy:0
+2025-09-04 09:34:39.016 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:350 y:272 vx:7 vy:0
+2025-09-04 09:34:39.039 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:350 y:272 vx:7 vy:0
+2025-09-04 09:34:39.059 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:350 y:272 vx:7 vy:0
+2025-09-04 09:34:39.081 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:350 y:272 vx:7 vy:0
+2025-09-04 09:34:39.101 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:350 y:272 vx:7 vy:0
+2025-09-04 09:34:39.122 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:350 y:272 vx:7 vy:0
+2025-09-04 09:34:39.310 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:350 y:256 vx:7 vy:16
+2025-09-04 09:34:39.331 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:343 y:241 vx:7 vy:15
+2025-09-04 09:34:39.331 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:336 y:227 vx:7 vy:14
+2025-09-04 09:34:39.352 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:336 y:227 vx:7 vy:14
+2025-09-04 09:34:39.352 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:329 y:214 vx:7 vy:13
+2025-09-04 09:34:39.373 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:329 y:214 vx:7 vy:13
+2025-09-04 09:34:39.373 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:322 y:202 vx:7 vy:12
+2025-09-04 09:34:39.394 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:322 y:202 vx:7 vy:12
+2025-09-04 09:34:39.394 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:315 y:191 vx:7 vy:11
+2025-09-04 09:34:39.415 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:315 y:191 vx:7 vy:11
+2025-09-04 09:34:39.415 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:308 y:181 vx:7 vy:10
+2025-09-04 09:34:39.435 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:308 y:181 vx:7 vy:10
+2025-09-04 09:34:39.436 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:301 y:172 vx:7 vy:9
+2025-09-04 09:34:39.457 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:301 y:172 vx:7 vy:9
+2025-09-04 09:34:39.457 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:294 y:164 vx:7 vy:8
+2025-09-04 09:34:39.479 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:294 y:164 vx:7 vy:8
+2025-09-04 09:34:39.479 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:287 y:157 vx:7 vy:7
+2025-09-04 09:34:39.501 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:287 y:157 vx:7 vy:7
+2025-09-04 09:34:39.522 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:280 y:151 vx:7 vy:6
+2025-09-04 09:34:39.544 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:273 y:146 vx:7 vy:5
+2025-09-04 09:34:39.565 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:266 y:142 vx:7 vy:4
+2025-09-04 09:34:39.917 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:259 y:241 vx:7 vy:14
+2025-09-04 09:34:39.938 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:259 y:256 vx:7 vy:15
+2025-09-04 09:34:39.958 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:259 y:272 vx:7 vy:16
+2025-09-04 09:34:39.979 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:259 y:272 vx:7 vy:0
+2025-09-04 09:34:40.000 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:259 y:272 vx:7 vy:0
+2025-09-04 09:34:40.021 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:259 y:272 vx:7 vy:0
+2025-09-04 09:35:52.479 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:52.503 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:52.526 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:52.549 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:52.571 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:52.593 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:52.614 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:52.636 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:52.658 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:52.679 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:52.701 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:52.722 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:52.744 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:52.765 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:52.786 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:52.808 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:52.830 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:52.852 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:52.874 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:52.896 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:52.917 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:52.938 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:52.959 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:52.981 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:53.002 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:53.023 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:53.045 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:53.068 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:53.089 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:53.111 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:53.134 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:53.155 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:53.177 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:53.199 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:53.221 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:53.694 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:53.715 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:53.738 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:53.759 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:53.781 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:53.802 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:54.289 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:54.310 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:54.331 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:54.353 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:54.375 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:54.397 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:54.418 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:35:54.439 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:36:35.021 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:30 y:272 vx:0 vy:0
+2025-09-04 09:36:35.042 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:31 y:272 vx:1 vy:0
+2025-09-04 09:36:35.064 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:33 y:272 vx:2 vy:0
+2025-09-04 09:36:35.087 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:36 y:272 vx:3 vy:0
+2025-09-04 09:36:35.108 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:40 y:272 vx:4 vy:0
+2025-09-04 09:36:35.130 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:45 y:272 vx:5 vy:0
+2025-09-04 09:36:35.152 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:51 y:272 vx:6 vy:0
+2025-09-04 09:36:35.173 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:58 y:272 vx:7 vy:0
+2025-09-04 09:36:35.194 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:65 y:272 vx:7 vy:0
+2025-09-04 09:36:35.216 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:72 y:256 vx:7 vy:16
+2025-09-04 09:36:35.237 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:79 y:241 vx:7 vy:15
+2025-09-04 09:36:35.258 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:86 y:227 vx:7 vy:14
+2025-09-04 09:36:35.279 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:93 y:214 vx:7 vy:13
+2025-09-04 09:36:35.300 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:100 y:202 vx:7 vy:12
+2025-09-04 09:36:35.321 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:107 y:191 vx:7 vy:11
+2025-09-04 09:36:35.343 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:114 y:181 vx:7 vy:10
+2025-09-04 09:36:35.364 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:121 y:172 vx:7 vy:9
+2025-09-04 09:36:35.387 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:128 y:164 vx:7 vy:8
+2025-09-04 09:36:35.407 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:135 y:157 vx:7 vy:7
+2025-09-04 09:36:35.428 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:142 y:151 vx:7 vy:6
+2025-09-04 09:36:35.450 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:149 y:146 vx:7 vy:5
+2025-09-04 09:36:38.026 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:38.047 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:38.068 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:38.090 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:38.112 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:38.133 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:38.155 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:38.177 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:38.199 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:38.589 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:38.612 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:38.633 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:38.653 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:38.675 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:38.696 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:38.718 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:38.740 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:39.028 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:39.049 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:39.071 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:39.093 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:39.114 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:39.135 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:39.156 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:39.177 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:39.199 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:39.221 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:39.243 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:39.263 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:39.284 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:39.306 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:39.329 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:39.351 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:39.373 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:39.394 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:39.415 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:39.763 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:39.785 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:39.806 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:39.827 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:39.850 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:39.872 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:39.893 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:39.915 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:39.936 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:39.958 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:39.979 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:40.000 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:40.021 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:40.044 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:40.067 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:40.088 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:40.109 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:40.133 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:40.154 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:40.185 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:40.206 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:40.496 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:40.518 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:40.541 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:40.562 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:40.584 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:40.605 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:40.626 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:40.874 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:40.896 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:40.917 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:40.938 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:40.958 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:40.979 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:41.001 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:41.023 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:41.045 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:41.065 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:41.086 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:41.107 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:41.128 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:41.149 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:41.170 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:41.192 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:41.214 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:41.235 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:41.256 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:41.277 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:41.298 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:41.320 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:41.342 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:41.446 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:41.467 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:41.487 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:41.509 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:41.546 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:41.568 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:41.591 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:41.613 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:41.635 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:41.656 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:41.678 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:41.699 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:41.721 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:41.741 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:41.762 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:42.111 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:42.132 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:42.154 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:42.176 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:42.197 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:42.217 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:42.239 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:42.260 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:42.282 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:42.303 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:42.324 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:42.345 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:42.366 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:42.387 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:42.409 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:42.430 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:42.451 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:42.472 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:42.493 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:42.514 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:42.535 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:42.557 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:42.599 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:42.620 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:42.641 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:42.662 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:42.684 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:42.705 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:42.726 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:42.746 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:42.768 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:42.789 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:42.811 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:42.831 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:42.854 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:42.876 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:42.911 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:42.931 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:42.952 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:42.973 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:42.994 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:43.015 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:43.036 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:43.057 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:43.079 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:43.102 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:43.122 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:43.143 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:43.845 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:43.867 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:43.888 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:43.909 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:43.931 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:43.952 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:43.973 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:43.994 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:44.017 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:44.575 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:44.595 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:44.616 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:44.639 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:44.660 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:44.681 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:44.703 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:44.724 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:44.745 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:44.765 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:45.425 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:45.446 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:45.467 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:45.489 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:45.509 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:45.551 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:45.572 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
+2025-09-04 09:36:45.594 [Thread-3] INFO  se233.chapter4.model.GameCharacter.trace(137) - x:156 y:272 vx:7 vy:0
