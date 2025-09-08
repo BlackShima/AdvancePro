@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ec1cb8ce-0db4-4805-8902-5f4af0008dc1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/AdvancePro.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chaper5/Hello" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/se233/labadvancepro/Launcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/se233/labadvancepro/Launcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/se233/labadvancepro/controller/AllCustomHandler$GenCharacterHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/se233/labadvancepro/controller/AllCustomHandler$GenCharacterHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/se233/labadvancepro/controller/AllCustomHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/se233/labadvancepro/controller/AllCustomHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/se233/labadvancepro/controller/GenCharacter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/se233/labadvancepro/controller/GenCharacter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/se233/labadvancepro/controller/GenItemList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/se233/labadvancepro/controller/GenItemList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/se233/labadvancepro/model/DamageType.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/se233/labadvancepro/model/DamageType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/se233/labadvancepro/model/character/BasedCharacter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/se233/labadvancepro/model/character/BasedCharacter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/se233/labadvancepro/model/character/BattleMageCharacter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/se233/labadvancepro/model/character/BattleMageCharacter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/se233/labadvancepro/model/character/MagicalCharacter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/se233/labadvancepro/model/character/MagicalCharacter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/se233/labadvancepro/model/character/PhysicalCharacter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/se233/labadvancepro/model/character/PhysicalCharacter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/se233/labadvancepro/model/item/Armor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/se233/labadvancepro/model/item/Armor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/se233/labadvancepro/model/item/BasedEquipment.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/se233/labadvancepro/model/item/BasedEquipment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/se233/labadvancepro/model/item/Weapon.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/se233/labadvancepro/model/item/Weapon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/se233/labadvancepro/view/CharacterPane.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/se233/labadvancepro/view/CharacterPane.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/se233/labadvancepro/view/EquipPane$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/se233/labadvancepro/view/EquipPane$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/se233/labadvancepro/view/EquipPane$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/se233/labadvancepro/view/EquipPane$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/se233/labadvancepro/view/EquipPane$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/se233/labadvancepro/view/EquipPane$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/se233/labadvancepro/view/EquipPane$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/se233/labadvancepro/view/EquipPane$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/se233/labadvancepro/view/EquipPane.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/se233/labadvancepro/view/EquipPane.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/se233/labadvancepro/view/InventoryPane$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/se233/labadvancepro/view/InventoryPane$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/se233/labadvancepro/view/InventoryPane$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/se233/labadvancepro/view/InventoryPane$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/se233/labadvancepro/view/InventoryPane.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab-AdvancePro/target/classes/se233/labadvancepro/view/InventoryPane.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;BlackShima&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/BlackShima/AdvancePro.git&quot;,
+    &quot;accountId&quot;: &quot;dac2fdd8-cbdf-4410-8739-54f07479bcf5&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="32PKbAYzwtQjB6JztJ79Vidycnq" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.HelloApplication.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Black/AdvancePro/chapter5part1"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Black\AdvancePro\Chapter5\src\main\resources\se233\chapter5part1\assets" />
+      <recent name="C:\Users\Black\AdvancePro\Chapter5\src\main\resources\se233\chapter5" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ec1cb8ce-0db4-4805-8902-5f4af0008dc1" name="Changes" comment="" />
+      <created>1757316838828</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757316838828</updated>
+    </task>
+    <servers />
+  </component>
+</project>
