@@ -18,7 +18,7 @@ public class GameCharacter extends Pane {
     private int startY = y;
     private int characterWidth;
     private int characterHeight;
-    private int score=0;
+    private int score;
     private KeyCode leftKey;
     private KeyCode rightKey;
     private KeyCode upKey;
@@ -99,8 +99,8 @@ public class GameCharacter extends Pane {
     public void checkReachGameWall() {
         if (x <= 0) {
             x = 0;
-        } else if (x + getWidth() >= GameStage.WIDTH) {
-            x = GameStage.WIDTH - (int) getWidth();
+        } else if (x + characterWidth >= GameStage.WIDTH) {
+            x = GameStage.WIDTH - characterWidth ;
         }
     }
 
@@ -150,6 +150,7 @@ public class GameCharacter extends Pane {
             this.stop();
         } else if (this.isMoveRight && this.x < c.getX()) {
             this.x = Math.min(this.x, c.getX() - this.characterWidth);
+            this.stop();
         }
         if (this.isFalling && thisHitboxY + thisHitboxHeight > cHitboxY && thisHitboxX < cHitboxX + cHitboxWidth && thisHitboxX + thisHitboxWidth > cHitboxX) {
             score++;
@@ -157,7 +158,7 @@ public class GameCharacter extends Pane {
             //this.repaint();
             c.collapsed();
             c.respawn();
-
+            System.out.println(score);
             this.collapsed();
             this.respawn();
             return true;
@@ -169,7 +170,7 @@ public class GameCharacter extends Pane {
         return characterHeight;
     }
 
-    private int getY() {
+    public int getY() {
         return y;
     }
 
@@ -177,7 +178,7 @@ public class GameCharacter extends Pane {
         return characterWidth;
     }
 
-    private int getX() {
+    public int getX() {
         return x;
     }
 
@@ -194,6 +195,7 @@ public class GameCharacter extends Pane {
     public void respawn() {
         this.x = this.startX;
         this.y = this.startY;
+        //this.score = 0;
         this.imageView.setFitWidth(this.characterWidth);
         this.imageView.setFitHeight(this.characterHeight);
         this.isMoveLeft = false;
@@ -226,4 +228,5 @@ public class GameCharacter extends Pane {
     public int getScore() {
         return score;
     }
+
 }
