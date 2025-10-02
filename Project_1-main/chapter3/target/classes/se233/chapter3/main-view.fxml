@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<FlowPane xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="se233.chapter3.controller.MainViewController">
+    <children>
+        <MenuBar prefHeight="20.0" prefWidth="400.0">
+        </MenuBar>
+        <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="530.0" prefWidth="200.0">
+            <children>
+                <Label alignment="CENTER" layoutX="20.0" layoutY="20.0" text="Drop audio files below:" />
+                <ListView fx:id="inputListView" layoutX="10" layoutY="45.0" prefHeight="150" prefWidth="180" style="-fx-border-color: black;"/>
+
+                <VBox layoutX="10.0" layoutY="205.0" prefWidth="180.0" spacing="5.0">
+                    <children>
+                        <Label text="Target Format:" />
+                        <ComboBox fx:id="formatComboBox" prefWidth="180.0" />
+                        <Label text="Quality/Bitrate:" />
+                        <ComboBox fx:id="qualityComboBox" prefWidth="180.0" />
+
+                        <TitledPane animated="false" text="Advanced Settings">
+                            <content>
+                                <VBox spacing="5.0">
+                                    <children>
+                                        <Label text="Sample Rate:" />
+                                        <ComboBox fx:id="sampleRateComboBox" prefWidth="180.0" />
+                                        <Label text="Channels:" />
+                                        <ComboBox fx:id="channelsComboBox" prefWidth="180.0" />
+                                    </children>
+                                </VBox>
+                            </content>
+                        </TitledPane>
+
+                        <Button fx:id="startButton" prefHeight="20.0" prefWidth="180.0" text="Start Conversion"/>
+
+                        <Label fx:id="progressLabel" text="Progress:" />
+                        <ProgressBar fx:id="progressBar" prefWidth="180.0" progress="0.0" />
+                    </children>
+                </VBox>
+            </children>
+        </AnchorPane>
+
+        <Pane>
+            <VBox prefHeight="530.0" prefWidth="200.0" spacing="5" style="-fx-padding: 5;">
+                <children>
+                    <Label text="File Information:">
+                        <font>
+                            <Font name="System Bold" size="14.0" />
+                        </font>
+                    </Label>
+                    <TextArea fx:id="fileInfoArea" editable="false" prefHeight="500.0" wrapText="true" />
+                </children>
+            </VBox>
+        </Pane>
+    </children>
+</FlowPane>
