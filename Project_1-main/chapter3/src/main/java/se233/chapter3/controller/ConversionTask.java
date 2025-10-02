@@ -1,5 +1,6 @@
 package se233.chapter3.controller;
 
+import java.io.File;
 import javafx.beans.property.DoubleProperty;
 import javafx.concurrent.Task;
 import net.bramp.ffmpeg.FFmpeg;
@@ -12,6 +13,7 @@ import net.bramp.ffmpeg.probe.FFmpegProbeResult;
 import net.bramp.ffmpeg.progress.Progress;
 import net.bramp.ffmpeg.progress.ProgressListener;
 
+import java.io.IOException;
 import java.nio.file.Paths;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicLong;
@@ -45,76 +47,78 @@ public class ConversionTask extends Task<Void> {
 
 
     @Override
-    protected Void call() throws Exception {
-        FFmpeg ffmpeg = new FFmpeg();
-        FFprobe ffprobe = new FFprobe();
-        FFmpegProbeResult probeResult = ffprobe.probe(inputPath);
+    protected Void call() throws ConversionException {
+        try {
+            // --- ย้ายโค้ดทั้งหมดมาไว้ใน try-block ---
+            FFmpeg ffmpeg = new FFmpeg();
+            FFprobe ffprobe = new FFprobe();
+            FFmpegProbeResult probeResult = ffprobe.probe(inputPath);
 
-        String fileExtension = format.toLowerCase();
-        int channelCount = channels.equalsIgnoreCase("Stereo") ? 2 : 1;
+            String fileExtension = format.toLowerCase();
+            int channelCount = channels.equalsIgnoreCase("Stereo") ? 2 : 1;
 
-        // 1. สร้าง FFmpegBuilder หลัก
-        FFmpegBuilder builder = new FFmpegBuilder()
-                .setInput(probeResult)
-                .overrideOutputFiles(true);
+            FFmpegBuilder builder = new FFmpegBuilder()
+                    .setInput(probeResult)
+                    .overrideOutputFiles(true);
 
-        // 2. เพิ่ม Output และรับผลลัพธ์เป็น FFmpegOutputBuilder
-        //    เราจะใช้ตัวแปร outputBuilder นี้ในการตั้งค่าทั้งหมด
-        FFmpegOutputBuilder outputBuilder = builder.addOutput(Paths.get(outputPath, getOutputFilename(inputPath, fileExtension)).toString())
-                .setFormat(fileExtension)
-                .setAudioChannels(channelCount)
-                .setAudioSampleRate(sampleRate);
+            FFmpegOutputBuilder outputBuilder = builder.addOutput(Paths.get(outputPath, getOutputFilename(inputPath, fileExtension)).toString())
+                    .setFormat(fileExtension)
+                    .setAudioChannels(channelCount)
+                    .setAudioSampleRate(sampleRate);
 
-        // 3. ใช้ switch-case กับ outputBuilder เพื่อตั้งค่าเฉพาะของแต่ละ format
-        switch (this.format.toUpperCase()) {
-            case "MP3":
-            case "M4A":
-                int bitrate = Integer.parseInt(quality.replaceAll("[^0-9]", ""));
-                outputBuilder.setAudioBitRate(bitrate * 1000L);
-                outputBuilder.setAudioCodec(getCodecForFormat(this.format));
-                break;
-            case "WAV":
-                if ("16-bit PCM".equals(quality)) {
-                    outputBuilder.setAudioCodec("pcm_s16le");
-                } else if ("24-bit PCM".equals(quality)) {
-                    outputBuilder.setAudioCodec("pcm_s24le");
-                }
-                break;
-            case "FLAC":
-                int compressionLevel = Integer.parseInt(quality.replaceAll("[^0-9]", ""));
-                outputBuilder.addExtraArgs("-compression_level", String.valueOf(compressionLevel));
-                outputBuilder.setAudioCodec(getCodecForFormat(this.format));
-                break;
-            default:
-                outputBuilder.setAudioCodec("copy");
-                break;
-        }
-
-        // 4. จบการตั้งค่า output นี้ด้วย .done() บน outputBuilder
-        outputBuilder.done();
-
-        // ส่วนที่เหลือทำงานกับ builder ตัวหลักเหมือนเดิม
-        FFmpegExecutor executor = new FFmpegExecutor(ffmpeg, ffprobe);
-
-        FFmpegJob job = executor.createJob(builder, new ProgressListener() {
-            @Override
-            public void progress(Progress progress) {
-                long progressDelta = progress.out_time_ns - lastReportedProgress;
-                currentProgress.addAndGet(progressDelta);
-                lastReportedProgress = progress.out_time_ns;
-
-                totalProgress.set((double) currentProgress.get() / totalDuration);
+            switch (this.format.toUpperCase()) {
+                case "MP3":
+                case "M4A":
+                    int bitrate = Integer.parseInt(quality.replaceAll("[^0-9]", ""));
+                    outputBuilder.setAudioBitRate(bitrate * 1000L);
+                    outputBuilder.setAudioCodec(getCodecForFormat(this.format));
+                    break;
+                case "WAV":
+                    if ("16-bit PCM".equals(quality)) {
+                        outputBuilder.setAudioCodec("pcm_s16le");
+                    } else if ("24-bit PCM".equals(quality)) {
+                        outputBuilder.setAudioCodec("pcm_s24le");
+                    }
+                    break;
+                case "FLAC":
+                    int compressionLevel = Integer.parseInt(quality.replaceAll("[^0-9]", ""));
+                    outputBuilder.addExtraArgs("-compression_level", String.valueOf(compressionLevel));
+                    outputBuilder.setAudioCodec(getCodecForFormat(this.format));
+                    break;
+                default:
+                    outputBuilder.setAudioCodec("copy");
+                    break;
             }
-        });
 
-        job.run();
+            outputBuilder.done();
 
-        long finalProgress = (long)(probeResult.getFormat().duration * TimeUnit.SECONDS.toNanos(1));
-        long progressDelta = finalProgress - lastReportedProgress;
-        currentProgress.addAndGet(progressDelta);
-        totalProgress.set((double) currentProgress.get() / totalDuration);
+            FFmpegExecutor executor = new FFmpegExecutor(ffmpeg, ffprobe);
+            FFmpegJob job = executor.createJob(builder, new ProgressListener() {
+                @Override
+                public void progress(Progress progress) {
+                    long progressDelta = progress.out_time_ns - lastReportedProgress;
+                    currentProgress.addAndGet(progressDelta);
+                    lastReportedProgress = progress.out_time_ns;
+                    totalProgress.set((double) currentProgress.get() / totalDuration);
+                }
+            });
 
-        return null;
+            job.run();
+
+            long finalProgress = (long)(probeResult.getFormat().duration * TimeUnit.SECONDS.toNanos(1));
+            long progressDelta = finalProgress - lastReportedProgress;
+            currentProgress.addAndGet(progressDelta);
+            totalProgress.set((double) currentProgress.get() / totalDuration);
+
+            return null;
+
+        } catch (IOException e) {
+            // ดักจับ IOException ที่เกิดตอนอ่านไฟล์ หรือ khởi tạo FFmpeg
+            throw new ConversionException("Error reading or accessing the file: " + new File(inputPath).getName(), e);
+        } catch (Exception e) {
+            // ดักจับ Exception อื่นๆ ที่อาจเกิดตอนแปลงไฟล์
+            throw new ConversionException("An unexpected error occurred during conversion: " + new File(inputPath).getName(), e);
+        }
     }
 
     private String getCodecForFormat(String format) {

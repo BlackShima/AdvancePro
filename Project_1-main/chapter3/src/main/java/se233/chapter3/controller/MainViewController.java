@@ -123,10 +123,20 @@ public class MainViewController {
             // UPDATED: Proper error handling for each conversion task
             task.setOnFailed(evt -> {
                 Throwable ex = task.getException();
-                String errorMsg = "Could not convert " + new File(inputPath).getName() + ".\n\nDetails: " + ex.getMessage();
-                if (ex.getMessage().contains("Cannot run program \"ffmpeg\"")) {
+                String errorMsg;
+                if (ex instanceof ConversionException) {
+                    // ถ้าใช่, แสดงข้อความจาก Exception ของเรา
+                    errorMsg = "Could not convert " + new File(inputPath).getName() + ".\n\nDetails: " + ex.getMessage();
+
+                    // 2. การตรวจสอบเรื่อง ffmpeg ยังคงมีประโยชน์ ควรเก็บไว้
+                } else if (ex.getMessage() != null && ex.getMessage().contains("Cannot run program \"ffmpeg\"")) {
                     errorMsg = "Critical Error: ffmpeg executable not found. Please install FFmpeg and ensure it's in your system's PATH.";
+
+                    // 3. กรณีเป็น Exception อื่นๆ ที่ไม่คาดคิด
+                } else {
+                    errorMsg = "An unexpected error occurred with " + new File(inputPath).getName() + ".";
                 }
+
                 showErrorAlert("Conversion Failed", errorMsg);
                 fileInfoArea.appendText("\nFailed: " + new File(inputPath).getName());
             });
