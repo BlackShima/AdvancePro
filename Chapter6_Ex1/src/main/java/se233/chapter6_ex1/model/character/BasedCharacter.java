@@ -1,0 +1,49 @@
+package se233.chapter6_ex1.model.character;
+
+import se233.chapter6_ex1.model.DamageType;
+import se233.chapter6_ex1.model.item.Armor;
+import se233.chapter6_ex1.model.item.Weapon;
+
+public class BasedCharacter {
+    protected String name, imgpath;
+    protected DamageType type;
+    protected Integer fullHp, basedPow, basedDef, basedRes;
+    protected Integer hp, power, defense, resistance;
+    protected Weapon weapon;
+    protected Armor armor;
+    public String getName(){return name;}
+    public String getImagepath(){return imgpath;}
+    public Integer getHp(){return hp;}
+    public Integer getFullHp(){return fullHp;}
+    public Integer getPower(){return power;}
+    public Integer getDefense(){return defense;}
+    public Integer getResistance(){return resistance;}
+    public void equipWeapon(Weapon weapon) {
+        this.weapon = weapon;
+        this.power = this.basedPow + weapon.getPower();
+    }
+    public void equipArmor(Armor armor) {
+        this.armor = armor;
+        this.defense = this.basedDef + armor.getDefense();
+        this.resistance = this.basedRes + armor.getResistance();
+    }
+
+    public Weapon unequipWeapon() {
+        Weapon old = this.weapon;
+        this.weapon = null;
+        this.power = this.basedPow;
+        return old;
+    }
+
+    public Armor unequipArmor() {
+        Armor old = this.armor;
+        this.armor = null;
+        this.defense = this.basedDef;
+        this.resistance = this.basedRes;
+        return old;
+    }
+
+    @Override
+    public String toString(){return name;}
+    public DamageType getType(){return type;}
+}
